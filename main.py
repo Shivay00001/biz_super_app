@@ -49,7 +49,10 @@ class BizApp(tk.Tk):
         super().__init__()
         self.title("BizSuperApp (Enterprise Edition)")
         self.geometry("1100x700")
-        self.state('zoomed') 
+        try:
+            self.state('zoomed') # Start maximized (Windows)
+        except Exception:
+            self.attributes('-zoomed', True) # Linux/X11 maximize fallback
         
         # Apply Theme
         Theme.apply_theme(self)

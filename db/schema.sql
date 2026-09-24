@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS employees (
 -- Compliance (Missing previously)
 CREATE TABLE IF NOT EXISTS compliance_events (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title TEXT,
+    name TEXT,
     due_date DATE,
     status TEXT DEFAULT 'pending', -- pending, done
     company_id INTEGER,
