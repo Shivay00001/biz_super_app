@@ -1,5 +1,7 @@
 # Biz Super App (Enterprise Edition)
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 Desktop GUI app (tkinter). Business suite with analytics, billing, HR, inventory, and compliance (GST calendar) modules; SQLite storage (`biz_app.db` is created on first run).
 
 ## Run
